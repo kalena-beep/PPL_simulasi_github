@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+    <h1 id="testing">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
 
     <p>Tombol untuk ganti warna:</p>
     <button id="bkuning">Kuning</button>
@@ -23,6 +23,6 @@
 
     });
     document.getElementById("bmerah").addEventListener("click", function(){
-
+        document.getElementById("testing").style.color = 'red';
     });
 </script>
