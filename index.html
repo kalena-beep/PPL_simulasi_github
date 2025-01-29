@@ -6,11 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+    <h1 id="apt">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
 
     <p>Tombol untuk ganti warna:</p>
     <button id="bkuning">Kuning</button>
     <button id="bhijau">Hijau</button>
     <button id="bmerah">Merah</button>
 </body>
+
+<script>
+        document.getElementById("bkuning").addEventListener("click", function () {
+                document.getElementById("apt").style.color = 'yellow';
+            });
+</script>
 </html>
